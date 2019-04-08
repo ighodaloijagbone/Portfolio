@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans');
+* {
+   
+    margin: 0;
+    padding: 0;
+}
+
+/* library */
+
+/*color library*/
+:root {
+    --main-turq: #2AE6DF;
+    --main-black: #333333;
+    --main-white: #FFFFFF;
+    --main-purple: #B110B1;
+    --main-grey: rgb(41, 41, 41);
+    --yel: #FFD600;
+    --blue: #2f80ed;
+    --white: #ffff;
+    --black: #000;
+    --blue_sec: #217EEB;
+}
+
+/* library */
+html {
+    box-sizing: border-box;
+    /* background-color: var(--blue_sec); */
+    z-index: -6;
+    height: 100%;
+   
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border: 1px solid rgb(109, 36, 226);
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    border: 1px solid pink;
+
+}
+
+header {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    margin: .5em 0 0 0;
+    background-color: var(--blue_sec);
+    z-index: -5;
+}
+
+#logo {
+    width: 70%;
+}
+
+.menuicon {
+    width: 70%;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+
+}
+
+.col {
+    /* width: 100%; */
+
+    align-content: center;
+    text-align: center;
+}
+
+.split {
+    background-color: var(--blue_sec);
+    z-index: -5;
+    display: block;
+    /* height: 100%; */
+    
+    height: 250px;
+    width: 100%;
+
+    align-content: center;
+    text-align: center;
+
+}
+
+.split_2 {
+
+    background-image: url(/assets/images/pattern\ bg.jpg);
+
+    background-size: cover;
+    z-index: -5;
+    display: block;
+    /* height: 100%; */
+    min-height: 350px;
+    width: 100%;
+
+    align-content: center;
+    text-align: center;
+
+
+}
+
+.col_1 {
+    margin: 0;
+}
+
+.col_1 h1 {
+    font-family: 'Nunito Sans' ;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 100%;
+    margin: 20% auto 0;
+    color: var(--yel);
+}
+
+.col_1 p {
+    width: 70%;
+    margin: 2% auto 0%;
+    color: var(--white);
+    font-family: 'nunito sans';
+    font-weight:300;
+    font-size: .9rem;
+    line-height:normal;
+    letter-spacing: .03rem;
+}
+
+.col_1 figcaption {
+    margin: 2% 0 10% 0;
+    color: var(--white);
+}
+.col_2 {
+    
+    border: 2px solid red;
+}
+
+.col_2 figure {
+    
+    color: var(--main-black);
+}
+
+.col_2 figure {
+    margin: 5% 0 10% 0;
+
+}
+
+.dp {
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+
